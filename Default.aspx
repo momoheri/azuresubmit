@@ -53,7 +53,7 @@
                             <asp:Label ID="Label5" runat="server" Text='<%# Bind("Email") %>'></asp:Label>
                         </ItemTemplate>
                     </asp:TemplateField>
-                    <asp:CommandField ShowEditButton="true" ShowDeleteButton="true" DeleteText="Delete" EditText="Edit" HeaderText="Action" />
+                    
                 </Columns>
                 <FooterStyle BackColor="#666666" ForeColor="#999999" />
                 <HeaderStyle BackColor="#003399" ForeColor="#cccccff" Font-Bold="true" />
